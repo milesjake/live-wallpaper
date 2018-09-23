@@ -1,0 +1,9 @@
+[source]
+url = https://stodulky.navyrovne.cz/imgs/snap.jpeg
+filetype = jpg
+
+[local]
+refreshtime = 60
+tempdir = ./
+syntax = gsettings set org.gnome.desktop.background picture-uri file://
+
